@@ -531,9 +531,9 @@ ul li span.red-block {
 
 .calendar-main {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 14%);
+    grid-template-columns: repeat(auto-fill, 15%);
     justify-content: center;
-    gap: 100px 25px;
+    gap: 100px 15px;
     padding: 0 0 100px;
 }
 
