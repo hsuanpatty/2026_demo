@@ -114,7 +114,7 @@
 .banner .horse-center {
     position: absolute;
     width: auto;
-    left: 17%;
+    left: 15%;
     top: 24%;
  
     z-index: 3;
@@ -413,11 +413,11 @@ ul li span.red-block {
 }
 
 ul li span.blue-block {
-    background-color: #aadbf9;
+    background-color: #358bbf;
 }
 
 ul li span.pink-block {
-    background-color: #f96793;
+    background-color: #ff2164;
 }
 
 ul li span.orange-block {
@@ -426,6 +426,10 @@ ul li span.orange-block {
 
 ul li span.red-block {
     background-color: #ff0000;
+}
+
+.red-sm {
+    font-size: 14px;
 }
 
 @media (max-width: 768px) {
@@ -623,11 +627,12 @@ ul li span.red-block {
 }
 
  .title-blue{
-    background-color: #aadbf9;
+    background-color: #358bbf;
+    color: #fff;
 }
 
  .title-pink{
-    background-color: #f96793;
+    background-color: #ff2164;
     color: #fff;
 }
 
@@ -640,12 +645,7 @@ ul li span.red-block {
       color: #fff;
 }
 
-
-.list-title:hover a .list-title-box {
-    color: #130b0b;
-    font-weight: 600;
-}
-
+.list-title:hover a .list-title-box,
 .list-title:hover a .title-pink,
 .list-title:hover a .title-red {
     color: #ffffff;
@@ -735,6 +735,12 @@ ul li span.red-block {
     }
 }
 
+@media (max-width: 450.98px) { 
+    .customScroll {
+        overflow-y: visible;
+        max-height: none;
+    }
+}
 
 /* footer */
 
