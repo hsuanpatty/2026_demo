@@ -604,11 +604,10 @@ ul li span.red-block {
 }
 
 .list-title:hover {
-    background: #e8c6b5;
+    background: #eed3c6;
 }
 
 .list-title:hover a {
-    color: #ffffff;
     font-weight: 600;
 }
 
