@@ -357,12 +357,12 @@ position: absolute;
 .container {
     margin: 0 auto;
     width: 100%;
-    padding: 10px 0;
+    padding: 50px 0;
     background-color: #f7ece4;
 }
 
 .select ul {
-    margin: 0;
+    margin: 0 auto 50px;
     display: flex;
     justify-content: center;
 }
@@ -674,7 +674,7 @@ ul li span.red-block {
 
 @media (min-width: 1600px) { 
     .calendar {
-        padding: 40px 80px;
+        padding: 0 80px 40px;
     }
 
     .calendar-main {
