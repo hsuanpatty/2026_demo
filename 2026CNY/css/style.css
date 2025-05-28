@@ -362,7 +362,7 @@ position: absolute;
 }
 
 .select ul {
-    margin: 0 auto 50px;
+    margin: 0 auto 20px;
     display: flex;
     justify-content: center;
 }
@@ -506,17 +506,24 @@ ul li span.red-block {
     background: #ae1028;
     color: #fffffd;
 }
+
 @media (max-width: 500px) {
     .btn {
         padding: 5px 24px;
         min-width: 158px;
     }
 }
+
 .calendar {
     width: 100%;
-    margin: 60px auto 0px;
+    margin: 30px auto 0px;
 }
 
+@media (max-width: 575.98px) { 
+    .calendar {
+        margin: 22px auto 0px;
+    }
+}
 
 .calendar-main {
     display: grid;
