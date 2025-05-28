@@ -868,6 +868,12 @@ footer a:hover {
     transition-property: opacity, transform !important;
 }
 
+@media (max-width: 1199.98px) { 
+    .foot-wrap {
+        width: 85%;
+    }
+}
+
 @media (max-width: 768px) {
 
     .date {
